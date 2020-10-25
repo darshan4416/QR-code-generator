@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+body{
+    background: #2d3436;
+    font-family: 'Roboto', sans-serif;
+}
+.heading{
+    height: 10vh;
+    text-align: center;
+    padding:0.8rem;
+    color:#f9ca24;
+    font-size: 2.2rem;
+}
+.qrcode-container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+canvas{
+    width: 25rem !important;
+    height: 25rem !important;
+    background: cornsilk;
+}
+.message{
+    width: 23rem;
+    padding:0.8rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+   margin-top: 1rem;
+   border-radius: 10rem;
+}
+.button{
+    border: none;
+    background: #f9ca24;
+    padding: 1rem 1.6rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    color:black;
+    width: 25rem;
+    margin-top:0.8rem;
+    border-radius:12rem;
+}
+.button:hover{
+    opacity: 0.9;
+}

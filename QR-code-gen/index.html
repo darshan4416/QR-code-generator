@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section>
+        <div class="heading">
+            <h1>QR code Generator</h1>
+        </div>
+        <div class="qrcode-container">
+            <canvas id="canvas"></canvas>
+            <input type="text" class="message" id="message" placeholder="type here..">
+            <button class="button" id="generate-button">Generate</button>
+            <button class="button" id="download-button">Download</button>
+        </div>
+    </section>
+    
+    <script src="./qrcode.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
